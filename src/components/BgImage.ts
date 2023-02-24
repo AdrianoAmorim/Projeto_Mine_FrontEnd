@@ -10,5 +10,5 @@ export const BgImage = styled.div`
     object-fit: contain;
     display: flex;
     justify-content: center;
-    box-shadow: inset 0 30px 40px #000;
+    box-shadow: inset 50px 180px 160px 5px #000;
 `

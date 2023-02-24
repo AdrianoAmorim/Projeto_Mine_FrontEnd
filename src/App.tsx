@@ -1,10 +1,11 @@
-const App = () =>{
-  return(
+import Login from "./page/Login";
+
+const App = () => {
+  return (
     <div>
-      PROJETO MINE
-    <div>Carregar a HOME Aki</div>
+      <Login/>
     </div>
-    
+
   )
 }
 

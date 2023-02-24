@@ -22,7 +22,8 @@ export const GlobalStyled = createGlobalStyle`
     }
     :root{
         --bg-button: #33E29A;
-        --bg-cardLogin: #414141;
+        --bg-cardLogin: #414141BB;
+        --text-input: #BAACAC;
         --bg-actionBtn:#BAACAC;
         --cinza-dark:#262626;
         --text-color: #fff;

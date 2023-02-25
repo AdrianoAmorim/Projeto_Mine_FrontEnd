@@ -4,6 +4,7 @@ import HeaderComponent from "../../components/Header";
 import { BoxFormLogin, BoxInpLogin, CheckBoxLS, InpLogin, LblInpLogin,LinkEsqueceuSenha } from "./styled";
 import ImgLogo from "../../assets/img/logo.svg";
 import Button from "../../components/Button";
+import Footer from "../../components/Footer";
 
 
 const Login = () => {
@@ -35,6 +36,7 @@ const Login = () => {
           <LinkEsqueceuSenha>Esqueceu a Senha?</LinkEsqueceuSenha>
 
         </BoxFormLogin>
+        <Footer/>
       </ContainerLimiter>
 
     </BgImage>

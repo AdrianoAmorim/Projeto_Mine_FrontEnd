@@ -22,8 +22,12 @@ export const Li = styled.li`
     & a{
         text-decoration: none;
         color: var(--text-color);
+    transition: all .2s ease-in-out;
         &:visited{
             color: var(--text-color);
+        }
+        &:hover{
+            color:#33E29A;
         }
     }
 `;

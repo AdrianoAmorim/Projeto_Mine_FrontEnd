@@ -11,7 +11,7 @@ export const BoxFormLogin = styled.div`
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    max-width: 480px;
+    max-width: 400px;
     background-color: var( --bg-cardLogin);
     backdrop-filter: blur(2px);
     padding: 25px;
@@ -56,4 +56,15 @@ export const CheckBoxLS = styled.input`
     margin-right: 6px;
     vertical-align: middle;
     color: aliceblue;
+`
+export const LinkEsqueceuSenha = styled.a`
+    font-size: 1rem;
+    color:#33E29A;
+    margin-top: 22px;
+    cursor: pointer;
+    transition: color .2s ease-in-out;
+    &:hover{
+        color: #2e8460;
+    }
+;
 `

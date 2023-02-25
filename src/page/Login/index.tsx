@@ -1,7 +1,7 @@
 import { BgImage } from "../../components/BgImage";
 import { ContainerLimiter } from "../../components/ContainerLimiter";
 import HeaderComponent from "../../components/Header";
-import { BoxFormLogin, BoxInpLogin, CheckBoxLS, InpLogin, LblInpLogin } from "./styled";
+import { BoxFormLogin, BoxInpLogin, CheckBoxLS, InpLogin, LblInpLogin,LinkEsqueceuSenha } from "./styled";
 import ImgLogo from "../../assets/img/logo.svg";
 import Button from "../../components/Button";
 
@@ -32,6 +32,7 @@ const Login = () => {
             </LblInpLogin>
           </BoxInpLogin>
           <Button>Entrar na Conta</Button>
+          <LinkEsqueceuSenha>Esqueceu a Senha?</LinkEsqueceuSenha>
 
         </BoxFormLogin>
       </ContainerLimiter>

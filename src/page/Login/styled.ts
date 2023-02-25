@@ -1,5 +1,9 @@
 import styled from "styled-components";
 
+type LabelProps ={
+    size?: string,
+    family?:string
+}
 
 export const BoxFormLogin = styled.div`
     display: flex;
@@ -9,8 +13,9 @@ export const BoxFormLogin = styled.div`
     width: 100%;
     max-width: 480px;
     background-color: var( --bg-cardLogin);
+    backdrop-filter: blur(2px);
     padding: 25px;
-     border-radius: 20px;
+     border-radius: 16px;
      margin-top: 50px;
 `;
 
@@ -36,9 +41,19 @@ export const InpLogin = styled.input`
     font-family:"Inter Medium";
     border-radius: 8px;
 `;
-export const LblInpLogin = styled.label`
+export const LblInpLogin = styled.label<LabelProps>`
     color: var(--text-color);
-    font-family: "Kufam Medium";
-    font-size: 1rem;
+    font-family: ${props => props.family ? props.family : "Kufam Medium"};
+    font-size: ${props => props.size ? props.size : '1rem'};
 
 `;
+
+export const BoxLembrarSenha = styled.div`
+    display: flex;
+    align-items:center;
+`
+export const CheckBoxLS = styled.input`
+    margin-right: 6px;
+    vertical-align: middle;
+    color: aliceblue;
+`

@@ -1,8 +1,9 @@
 import { BgImage } from "../../components/BgImage";
 import { ContainerLimiter } from "../../components/ContainerLimiter";
 import HeaderComponent from "../../components/Header";
-import { BoxFormLogin, BoxInpLogin, InpLogin, LblInpLogin } from "./styled";
+import { BoxFormLogin, BoxInpLogin, CheckBoxLS, InpLogin, LblInpLogin } from "./styled";
 import ImgLogo from "../../assets/img/logo.svg";
+import Button from "../../components/Button";
 
 
 const Login = () => {
@@ -24,7 +25,13 @@ const Login = () => {
               Senha
               <InpLogin />
             </LblInpLogin>
+
+            <LblInpLogin size=".9rem" family="Inter Regular">
+              <CheckBoxLS type="checkbox"/>
+              Lembrar Senha
+            </LblInpLogin>
           </BoxInpLogin>
+          <Button>Entrar na Conta</Button>
 
         </BoxFormLogin>
       </ContainerLimiter>

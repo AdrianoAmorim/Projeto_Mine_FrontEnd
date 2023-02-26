@@ -31,6 +31,7 @@ export const GlobalStyled = createGlobalStyle`
         --bg-actionBtn:#BAACAC;
         --cinza-dark:#262626;
         --text-color: #fff;
+        --blur: #26262687
     }
 
     .show{

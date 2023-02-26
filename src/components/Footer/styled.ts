@@ -26,6 +26,7 @@ export const BoxItemFooter = styled.div`
         text-align: center;
         & img{
             max-width: 60px;
+            filter: drop-shadow(1px 1px 2px #000);
         }
     }
 
@@ -43,5 +44,6 @@ export const TextItemFooter = styled.span`
     font-size:.9rem;
     color: #fff;
     font-family: "Kufam Medium";
+    text-shadow: 1px 1px 2px #000;
 
 `;

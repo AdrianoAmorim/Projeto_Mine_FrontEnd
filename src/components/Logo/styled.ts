@@ -6,6 +6,9 @@ export const BoxLogo = styled.div`
     align-items: center;
     width: 100px;
     margin-bottom: 48px;
+    @media (max-width:560px) {
+        margin-bottom: 0;
+    }   
 `;
 export const Text =styled.h2`
     font-size: 1.8rem;

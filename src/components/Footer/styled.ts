@@ -1,11 +1,17 @@
 import styled from "styled-components";
 
 export const FooterC = styled.footer`
-margin-top: 130px;
+    margin-top: 110px;
+    margin-bottom: 60px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 100%;
+
+    @media(max-width:845px){
+        flex-direction: column;
+        margin-top: 0;
+    }
 `;
 
 export const BoxItemFooter = styled.div`
@@ -13,6 +19,8 @@ export const BoxItemFooter = styled.div`
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    transition: transform .2s ease-in;
+    transform: scale(1);
     & div{
         width: 100%;
         text-align: center;
@@ -21,6 +29,13 @@ export const BoxItemFooter = styled.div`
         }
     }
 
+    &:hover{
+        cursor: pointer;
+        transform: scale(1.2);
+    }
+    @media(max-width:845px){
+        margin-top: 40px;
+        }
 
 `;
 

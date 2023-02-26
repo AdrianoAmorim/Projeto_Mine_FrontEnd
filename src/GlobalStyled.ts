@@ -32,4 +32,24 @@ export const GlobalStyled = createGlobalStyle`
         --cinza-dark:#262626;
         --text-color: #fff;
     }
+
+    .show{
+        display: flex;
+    }
+
+    .animationMenuMob{
+        animation: openMenu .4s forwards;
+    }
+
+    @keyframes openMenu{
+        from{
+            opacity: 0;
+            transform: scaleY(0);
+        }
+        to{
+            opacity: 1;
+            transform: scaleY(1);
+        }
+    }
+
 `

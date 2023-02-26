@@ -1,7 +1,7 @@
 import { createGlobalStyle } from "styled-components";
-import InterMedium from "./assets/font/Inter-medium.ttf"
+import InterMedium from "./assets/font/Inter-Medium.ttf"
 import InterRegular from "./assets/font/Inter-Regular.ttf"
-import KufamMedium from "./assets/font/Kufam-medium.ttf"
+import KufamMedium from "./assets/font/Kufam-Medium.ttf"
 
 export const GlobalStyled = createGlobalStyle`
     @font-face {
